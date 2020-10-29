@@ -1,0 +1,103 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "81bc7d4e-b0d4-4f5b-ac76-a5310d0f93ab": {
+        "id": "81bc7d4e-b0d4-4f5b-ac76-a5310d0f93ab",
+        "parent": null,
+        "name": "thibaut.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "thibaut.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "thibaut"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigLambdafabriceAPIv23get",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1604009933737
+      }
+    },
+    "openFiles": [
+      "81bc7d4e-b0d4-4f5b-ac76-a5310d0f93ab"
+    ],
+    "currentFileId": "81bc7d4e-b0d4-4f5b-ac76-a5310d0f93ab",
+    "resources": {
+      "apigLambdafabriceAPIv23get": {
+        "name": "apigLambdafabriceAPIv23get",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "Lambdafabrice-API",
+          "apiId": "ak68q8fba5",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "u0atf6y644",
+          "existingResources": {
+            "/test": "sxzidb",
+            "/": "u0atf6y644"
+          },
+          "resourceMode": 0,
+          "resourceName": "v23",
+          "resourcePath": "/v23",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "val",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "thibaut",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1604009989007
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "thibaut",
+      "url": "https://github.com/fgaoudi/thibaut"
+    }
+  }
+}
